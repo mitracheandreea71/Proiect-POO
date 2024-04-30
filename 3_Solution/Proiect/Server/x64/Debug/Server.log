@@ -1,0 +1,17 @@
+﻿  AInregistrare.cpp
+  Autentificare.cpp
+  BazaDeDate.cpp
+C:\Users\Z\Desktop\Proiect\Proiect\Server\BazaDeDate.cpp(138,12): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'SQLLEN'
+C:\Users\Z\Desktop\Proiect\Proiect\Server\BazaDeDate.cpp(138,12): message : consider using '%lld' in the format string
+C:\Users\Z\Desktop\Proiect\Proiect\Server\BazaDeDate.cpp(138,12): message : consider using '%Id' in the format string
+C:\Users\Z\Desktop\Proiect\Proiect\Server\BazaDeDate.cpp(138,12): message : consider using '%I64d' in the format string
+  CInregistrare.cpp
+  IInregistrare.cpp
+  Server.cpp
+C:\Users\Z\Desktop\Proiect\Proiect\Server\Server.cpp(25,27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\Z\Desktop\Proiect\Proiect\Server\Server.cpp(65,27): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\Z\Desktop\Proiect\Proiect\Server\Server.cpp(127,22): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\Z\Desktop\Proiect\Proiect\Server\Server.cpp(193,69): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Source2.cpp
+  Generating Code...
+  Server.vcxproj -> C:\Users\Z\Desktop\Proiect\Proiect\x64\Debug\Server.exe

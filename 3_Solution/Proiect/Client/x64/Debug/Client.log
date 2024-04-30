@@ -1,0 +1,4 @@
+﻿  Source1.cpp
+C:\Users\Z\source\repos\Proiect-POO\Proiect\Client\Source1.cpp(23,23): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\Z\source\repos\Proiect-POO\Proiect\Client\Source1.cpp(48,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Client.vcxproj -> C:\Users\Z\source\repos\Proiect-POO\Proiect\x64\Debug\Client.exe

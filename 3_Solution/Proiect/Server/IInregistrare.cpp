@@ -1,0 +1,1 @@
+#include "IInregistrare.h"
