@@ -1,0 +1,39 @@
+Successfully connected to SQL Server
+
+Successfully connected to SQL Server
+
+Successfully connected to SQL Server
+
+Successfully connected to SQL Server
+
+Successfully connected to SQL Server
+
+Successfully connected to SQL Server
+
+Successfully connected to SQL Server
+
+Successfully connected to SQL Server
+
+Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     A|Maria|1     
+     Successfully connected to SQL Server
+     Parola pentru utilizatorul este incorecta.
+     432     Autentificare esuata. Nume de utilizator sau parola incorecte.     Eroare la receptionarea mesajului de la clientul %d!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     400     A|andreea|8     
+      Utilizatorul a fost gasit cu parola corecta.
+     400     Autentificare reusita.     Eroare la receptionarea mesajului de la clientul %d!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     596     A|Maria|1     
+     Parola pentru utilizatorul este incorecta.
+     596     Autentificare esuata. Nume de utilizator sau parola incorecte.     Eroare la receptionarea mesajului de la clientul %d!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     812     A|Maria|123     
+     Parola pentru utilizatorul este incorecta.
+     812     Autentificare esuata. Nume de utilizator sau parola incorecte.     Eroare la receptionarea mesajului de la clientul %d!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     R|Iris|1|admin|123     
+     Successfully connected to SQL Server
+     432     Inregistrare admin reusita
+     Eroare la receptionarea mesajului de la clientul %d!
+     Client conectat de la      204.204.204.204     420     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     436     A|Iris|1     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     436     Autentificare reusita.     Eroare la receptionarea mesajului de la clientul %d!
+     

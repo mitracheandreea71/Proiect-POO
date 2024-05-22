@@ -585,8 +585,8 @@ void Server::HandleGetCompletedForms(int client_socket, const std::string& usern
 
     if (forms.empty()) {
         logger.log(std::to_string(client_socket));
-        logger.log("Nu ai formulare completate.\n");
-        SendMessageToClient(client_socket, "Nu ai formulare completate.");
+        logger.log("Nu ai formulare necompletate.\n");
+        SendMessageToClient(client_socket, "Nu ai formulare necompletate.");
     }
     else {
         std::ostringstream oss;
@@ -885,8 +885,8 @@ void Server::HandleAdminApproveDeleteRequest(int client_socket, const std::strin
 
     if (db.approveDeleteRequest(form_id)) {
         logger.log(std::to_string(client_socket));
-        logger.log("Cererea de stergere a fost aprobata si formularul a fost sters.\n");
-        SendMessageToClient(client_socket, "Cererea de stergere a fost aprobata si formularul a fost sters.");
+        logger.log("Cererea de stergere a fost aprobata și formularul a fost sters.\n");
+        SendMessageToClient(client_socket, "Cererea de stergere a fost aprobata și formularul a fost sters.");
     }
     else {
         logger.log(std::to_string(client_socket));

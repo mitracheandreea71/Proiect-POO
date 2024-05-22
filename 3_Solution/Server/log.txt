@@ -36,4 +36,520 @@ Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul 
      Successfully connected to SQL Server
       Utilizatorul a fost gasit cu parola corecta.
      436     Autentificare reusita.     Eroare la receptionarea mesajului de la clientul %d!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     R|pasare|1|admin|123     
+     Successfully connected to SQL Server
+     432     Inregistrare admin reusita
+     Mesaj receptionat de la clientul     432     A|Iris|1     
+      Utilizatorul a fost gasit cu parola corecta.
+     432     Autentificare reusita.     Mesaj receptionat de la clientul     432     T|Iris     
+     Mesaj receptionat de la clientul     432     C|Iris|sondaj|Floricele|Cat de mult iti plac florile?|     
+     432     Formular creat cu succes.
+     432     Sondaj realizat cu succes.Asteapta raspunsurile organizatiei  pentru a evalua.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCreate|Iris     
+     432     Floricele     
+     Mesaj receptionat de la clientul     432     FormulareCreate|Iris     
+     432     Floricele     
+     Mesaj receptionat de la clientul     432     FormulareCreate|Iris     
+     432     Floricele     
+     Mesaj receptionat de la clientul     432     FormulareCreate|Iris     
+     432     Floricele     
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCreate|Iris     
+     432     Floricele     
+     Mesaj receptionat de la clientul     432     FormulareCreate|Iris     
+     432     Floricele     
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Iris     
+     432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Iris     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     420     A|Iris|1     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     420     Autentificare reusita.     Mesaj receptionat de la clientul     420     T|Iris     
+     Mesaj receptionat de la clientul     420     VizualizareCereriArhivare|Iris     
+     420     s5|sdfb|     Mesaj receptionat de la clientul     420     VizualizareCereriArhivare|Iris     
+     420     s5|sdfb|     Mesaj receptionat de la clientul     420     VizualizareStergere|     
+     420     sdfb|sdfb|sdfb|jhg|     Mesaj receptionat de la clientul     420     Vizualizareformular|ver     
+     420     Formularul nu a fost gasit.
+     Mesaj receptionat de la clientul     420     Vizualizareformular|vfd     
+     420     Formularul nu a fost gasit.
+     420     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     440     A|das|asa     
+     Successfully connected to SQL Server
+     440     Autentificare esuata. Nume de utilizator sau parola incorecte.     Mesaj receptionat de la clientul     440     A|Iris|1     
+      Utilizatorul a fost gasit cu parola corecta.
+     440     Autentificare reusita.     Mesaj receptionat de la clientul     440     T|Iris     
+     Mesaj receptionat de la clientul     440     A|Gigel|4     
+      Utilizatorul a fost gasit cu parola corecta.
+     440     Autentificare reusita.     Mesaj receptionat de la clientul     440     T|Gigel     
+     Mesaj receptionat de la clientul     440     FormulareCompletate|Gigel     
+     Stare locuitori     440     Stare locuitori     
+     Mesaj receptionat de la clientul     440     FormulareNecompletate|Gigel     
+     Rezultatele interogrii din baza de date:      440     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     440     Vizualizareformular|Va place shawrma     
+     440     Formularul nu a fost gasit.
+     Mesaj receptionat de la clientul     440     FormulareNecompletate|Gigel     
+     Rezultatele interogrii din baza de date:      440     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     440     FormulareCompletate|Gigel     
+     Stare locuitori     440     Stare locuitori     
+     440     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     496     A|Iris|1     
+      Utilizatorul a fost gasit cu parola corecta.
+     496     Autentificare reusita.     Mesaj receptionat de la clientul     496     A|Iris|1     
+      Utilizatorul a fost gasit cu parola corecta.
+     496     Autentificare reusita.     Mesaj receptionat de la clientul     620     A|Gigel|4     
+      Utilizatorul a fost gasit cu parola corecta.
+     620     Autentificare reusita.     Mesaj receptionat de la clientul     620     T|Gigel     
+     620     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     824     A|Primar|2     
+      Utilizatorul a fost gasit cu parola corecta.
+     824     Autentificare reusita.     Mesaj receptionat de la clientul     824     T|Primar     
+     Mesaj receptionat de la clientul     824     FormulareCompletate|Primar     
+     Stare locuitori     824     Stare locuitori     
+     Mesaj receptionat de la clientul     824     FormulareNecompletate|Primar     
+     Rezultatele interogrii din baza de date:      824     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     824     FormulareCreate|Primar     
+     824     Stare locuitori     
+     Mesaj receptionat de la clientul     824     Statistica|Stare locuitori     
+     824     |Cat de fericiti sunteti astazi?*1+50.000000%|Cat de fericiti sunteti astazi?*2+0.000000%|Cat de fericiti sunteti astazi?*3+0.000000%|Cat de fericiti sunteti astazi?*4+0.000000%|Cat de fericiti sunteti astazi?*5+50.000000     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     428     A|Primar|2     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     428     Autentificare reusita.     Mesaj receptionat de la clientul     428     T|Primar     
+     Mesaj receptionat de la clientul     428     C|Primar|chestionar|Activitate 22.05.2024|La ce invatam astazi?*Sisteme de operare*Matematici discrete*POO|     
+     428     Formular creat cu succes.
+     428     Chestionar realizat cu succes. Asteapta raspunsurile organizatiei pentru a le evalua.
+     Mesaj receptionat de la clientul     428     FormulareNecompletate|Primar     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     428     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     428     Vizualizareformular|Activitate 22.05.2024     
+     428     La ce invatam astazi?*Sisteme de operare|La ce invatam astazi?*Matematici discrete|La ce invatam astazi?*POO|     Mesaj receptionat de la clientul     428     Completeaza|Primar|Activitate 22.05.2024|La ce invatam astazi?*POO     
+     Error executing SQL query
+     428     Eroare la completarea formularului.
+     Mesaj receptionat de la clientul     428     Vizualizareformular|Activitate 22.05.2024     
+     428     La ce invatam astazi?*Sisteme de operare|La ce invatam astazi?*Matematici discrete|La ce invatam astazi?*POO|     Mesaj receptionat de la clientul     428     Completeaza|Primar|Activitate 22.05.2024|La ce invatam astazi?*POO     
+     Error executing SQL query
+     428     Eroare la completarea formularului.
+     Mesaj receptionat de la clientul     428     FormulareCompletate|Primar     
+     Stare locuitori     428     Stare locuitori     
+     Mesaj receptionat de la clientul     428     FormulareNecompletate|Primar     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     428     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     428     FormulareCreate|Primar     
+     428     Stare locuitori|Activitate 22.05.2024     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     436     Completeaza|Primar|Activitate 22.05.2024|La ce invatam astazi?*POO     
+     Successfully connected to SQL Server
+     Error executing SQL query
+     436     Eroare la completarea formularului.
+     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     440     Completeaza|Primar|Activitate 22.05.2024|La ce invatam astazi?*POO     
+     Successfully connected to SQL Server
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     A|Primar|2     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     432     Autentificare reusita.     Mesaj receptionat de la clientul     432     T|Primar     
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Primar     
+     Rezultatele interogrii din baza de date:      432     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     432     Stare locuitori|Activitate 22.05.2024     
+     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     812     A|Primar|2     
+      Utilizatorul a fost gasit cu parola corecta.
+     812     Autentificare reusita.     Mesaj receptionat de la clientul     812     T|Primar     
+     Mesaj receptionat de la clientul     812     FormulareNecompletate|Primar     
+     Rezultatele interogrii din baza de date:      812     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     812     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     812     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     812     FormularCompletatDeMine|Primar|Activitate 22.05.2024     
+     812     La ce invatam astazi?*POO|     
+     Mesaj receptionat de la clientul     812     Statistica|Activitate 22.05.2024     
+     812     |La ce invatam astazi?*Matematici discrete+0.000000%|La ce invatam astazi?*POO+100.000000%|La ce invatam astazi?*Sisteme de operare+0.000000     Mesaj receptionat de la clientul     812     CerereArhivare|Stare locuitari     
+     812     Eroare la inregistrarea cererii de arhivare. Formularul nu a fost gasit sau e deja arhivat.
+     Mesaj receptionat de la clientul     812     CerereArhivare|Stare locuitori     
+     812     Cererea de arhivare a fost inregistrata.
+     Mesaj receptionat de la clientul     812     CerereStergere|Primar|Stare locuitori     
+     812     Cererea de stergere a fost adaugata cu succes.
+     Mesaj receptionat de la clientul     812     A|Iris|1     
+      Utilizatorul a fost gasit cu parola corecta.
+     812     Autentificare reusita.     Mesaj receptionat de la clientul     812     T|Iris     
+     Mesaj receptionat de la clientul     812     VizualizareCereriArhivare|Iris     
+     812     s5|sdfb|Stare locuitori|     Mesaj receptionat de la clientul     812     VizualizareCereriArhivare|Iris     
+     812     s5|sdfb|Stare locuitori|     Mesaj receptionat de la clientul     812     VizualizareStergere|     
+     812     sdfb|sdfb|sdfb|jhg|Stare locuitori|     Mesaj receptionat de la clientul     812     VizualizareStergere|     
+     812     sdfb|sdfb|sdfb|jhg|Stare locuitori|     Mesaj receptionat de la clientul     812     AprobaArhivare|Stare locuitori     
+     812     Formularul a fost arhivat cu succes.
+     Mesaj receptionat de la clientul     812     AprobaStergere|Stare locuitori     
+     812     Cererea de stergere a fost aprobata ?i formularul a fost sters.
+     Mesaj receptionat de la clientul     812     A|Primar|2     
+      Utilizatorul a fost gasit cu parola corecta.
+     812     Autentificare reusita.     Mesaj receptionat de la clientul     812     T|Primar     
+     Mesaj receptionat de la clientul     812     FormulareNecompletate|Primar     
+     Rezultatele interogrii din baza de date:      812     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     812     FormulareCompletate|Primar     
+     Activitate 22.05.2024     812     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     812     FormulareCreate|Primar     
+     812     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     812     Recupereaza|Primar|Stare locuitori     
+     812     Formularul a fost recuperat cu succes.
+     Mesaj receptionat de la clientul     812     FormulareCreate|Primar     
+     812     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     812     FormulareNecompletate|Primar     
+     Rezultatele interogrii din baza de date:      812     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     812     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     812     Stare locuitori|Activitate 22.05.2024     
+     812     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     436     A|Costel|3     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     436     Autentificare reusita.     Mesaj receptionat de la clientul     436     T|Costel     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Stare locuitori     Activitate 22.05.2024     436     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Stare locuitori     Activitate 22.05.2024     436     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     436     Nu ai formulare completate.
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Stare locuitori     Activitate 22.05.2024     436     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     Vizualizareformular|Stare locui     
+     436     Formularul nu a fost gasit.
+     Mesaj receptionat de la clientul     436     Vizualizareformular|Stare locuitori     
+     436     Cat de fericiti sunteti astazi?*1|Cat de fericiti sunteti astazi?*2|Cat de fericiti sunteti astazi?*3|Cat de fericiti sunteti astazi?*4|Cat de fericiti sunteti astazi?*5|     Mesaj receptionat de la clientul     436     Completeaza|Costel|Stare locuitori|Cat de fericiti sunteti astazi?*5     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     436     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     436     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     436     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     436     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     436     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     436     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormulareCompletate|Costel     
+     Stare locuitori     436     Stare locuitori     
+     Mesaj receptionat de la clientul     436     FormularCompletatDeMine|Costel|Stare locuitori     
+     436     Cat de fericiti sunteti astazi?*5|     
+     Mesaj receptionat de la clientul     436     FormularCompletatDeMine|Costel|Stare locuitori     
+     436     Cat de fericiti sunteti astazi?*5|     
+     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     A|dfsh|bgb     
+     Successfully connected to SQL Server
+     432     Autentificare esuata. Nume de utilizator sau parola incorecte.     Mesaj receptionat de la clientul     432     R|fbg|nrfs|user|fnh     
+     432     Numele organizatiei nu exista.
+     Mesaj receptionat de la clientul     432     R|Iris|fg d|user|org     
+     Inregistrare esuata. Nume de utilizator indisponibil.
+     432     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     444     A|fgch|cfgv     
+     Successfully connected to SQL Server
+     444     Autentificare esuata. Nume de utilizator sau parola incorecte.     Mesaj receptionat de la clientul     444     R|Iris|sd|user|sd     
+     444     Numele organizatiei nu exista.
+     Mesaj receptionat de la clientul     444     R|zsxdcf|zsxd|user|wsred     
+     444     Numele organizatiei nu exista.
+     Mesaj receptionat de la clientul     444     A|Costel|3     
+      Utilizatorul a fost gasit cu parola corecta.
+     444     Autentificare reusita.     Mesaj receptionat de la clientul     444     T|Costel     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Costel     
+     Stare locuitori     444     Stare locuitori     
+     Mesaj receptionat de la clientul     444     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     444     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Costel     
+     Stare locuitori     444     Stare locuitori     
+     Mesaj receptionat de la clientul     444     FormularCompletatDeMine|Costel|Stare locuitori     
+     444     Cat de fericiti sunteti astazi?*5|     
+     Mesaj receptionat de la clientul     444     FormularCompletatDeMine|Costel|Stare locuito     
+     444     Formular gresit
+     Mesaj receptionat de la clientul     444     FormulareNecompletate|Costel     
+     Activitate 22.05.2024     Rezultatele interogrii din baza de date:      Activitate 22.05.2024     444     Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     Vizualizareformular|Activitate 22.05.2024     
+     444     La ce invatam astazi?*Sisteme de operare|La ce invatam astazi?*Matematici discrete|La ce invatam astazi?*POO|     Mesaj receptionat de la clientul     444     Completeaza|Costel|Activitate 22.05.2024|La ce invatam astazi?*POO     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormularCompletatDeMine|Costel|Activitate 22.05.2024     
+     444     La ce invatam astazi?*POO|     
+     Mesaj receptionat de la clientul     444     FormularCompletatDeMine|Costel|Activitate 22.05.2024     
+     444     La ce invatam astazi?*POO|     
+     Mesaj receptionat de la clientul     444     A|Primar|2     
+      Utilizatorul a fost gasit cu parola corecta.
+     444     Autentificare reusita.     Mesaj receptionat de la clientul     444     A|Primar|2     
+      Utilizatorul a fost gasit cu parola corecta.
+     444     Autentificare reusita.     Mesaj receptionat de la clientul     444     T|Primar     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormulareNecompletate|Primar     
+     Rezultatele interogrii din baza de date:      444     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     444     FormulareNecompletate|Primar     
+     Rezultatele interogrii din baza de date:      444     Nu ai formulare necompletate.
+     Mesaj receptionat de la clientul     444     FormulareCreate|Primar     
+     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     FormulareCreate|Primar     
+     444     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     444     Statistica|Stare locuitori     
+     444     |Cat de fericiti sunteti astazi?*1+33.333336%|Cat de fericiti sunteti astazi?*2+0.000000%|Cat de fericiti sunteti astazi?*3+0.000000%|Cat de fericiti sunteti astazi?*4+0.000000%|Cat de fericiti sunteti astazi?*5+66.666672     Mesaj receptionat de la clientul     444     Statistica|Stare locuitori     
+     444     |Cat de fericiti sunteti astazi?*1+33.333336%|Cat de fericiti sunteti astazi?*2+0.000000%|Cat de fericiti sunteti astazi?*3+0.000000%|Cat de fericiti sunteti astazi?*4+0.000000%|Cat de fericiti sunteti astazi?*5+66.666672     Mesaj receptionat de la clientul     444     C|Primar|sondaj|test|intrebare 1|intrebare 2|intrebare 3|     
+     444     Formular creat cu succes.
+     444     Sondaj realizat cu succes.Asteapta raspunsurile organizatiei  pentru a evalua.
+     Mesaj receptionat de la clientul     444     C|Primar|chestionar|test_chestionar|q1*r1*r2*r3|q2*r21*r22*r23|     
+     444     Formular creat cu succes.
+     444     Chestionar realizat cu succes. Asteapta raspunsurile organizatiei pentru a le evalua.
+     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     808     A|Costel|3     
+      Utilizatorul a fost gasit cu parola corecta.
+     808     Autentificare reusita.     Mesaj receptionat de la clientul     808     T|Costel     
+     Mesaj receptionat de la clientul     808     FormulareNecompletate|Costel     
+     test     test_chestionar     Rezultatele interogrii din baza de date:      test     test_chestionar     808     test|test_chestionar     
+     Mesaj receptionat de la clientul     808     Vizualizareformular|test_chestionar     
+     808     q1*r1|q1*r2|q1*r3|q2*r21|q2*r22|q2*r23|     Mesaj receptionat de la clientul     808     Completeaza|Costel|test_chestionar|q1*r2|q2*r23     
+     Mesaj receptionat de la clientul     808     FormularCompletatDeMine|Costel|test_chestionar     
+     808     *|q2*r23|     
+     Mesaj receptionat de la clientul     808     FormularCompletatDeMine|Costel|test_chestionar     
+     808     *|q2*r23|     
+     Mesaj receptionat de la clientul     808     FormularCompletatDeMine|Costel|test_chestionar     
+     808     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     416     A|Costel|3     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     416     Autentificare reusita.     Mesaj receptionat de la clientul     416     T|Costel     
+     Mesaj receptionat de la clientul     416     FormularCompletatDeMine|Costel|test_chestionar     
+     416     *|q2*r23|     
+     Mesaj receptionat de la clientul     416     FormulareCompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     test_chestionar     416     Stare locuitori|Activitate 22.05.2024|test_chestionar     
+     Mesaj receptionat de la clientul     416     A|m2|m2     
+     416     Autentificare esuata. Nume de utilizator sau parola incorecte.     416     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     800     A|m2|m2     
+     800     Autentificare esuata. Nume de utilizator sau parola incorecte.     Mesaj receptionat de la clientul     800     A|m2|2     
+     800     Autentificare esuata. Nume de utilizator sau parola incorecte.     Mesaj receptionat de la clientul     800     A|m1|m1     
+      Utilizatorul a fost gasit cu parola corecta.
+     800     Autentificare reusita.     Mesaj receptionat de la clientul     800     T|m1     
+     Mesaj receptionat de la clientul     800     FormulareCompletate|m1     
+     sondaj1     2     s2     chestionar2     teRog     c3     c4     3     5     s5     800     sondaj1|2|s2|chestionar2|teRog|c3|c4|3|5|s5     
+     Mesaj receptionat de la clientul     800     FormularCompletatDeMine|m1|teRog     
+     800     *|*|*|*|*|*|*|*|pot*5|     
+     Mesaj receptionat de la clientul     800     FormularCompletatDeMine|m1|teRog     
+     800     *|*|*|*|*|*|*|*|pot*5|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     432     *|q2*r23|     
+     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Costel|test_chestionar     
+     432     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     460     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     460     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     432     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     432     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     432     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     216     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     216     q1*r2|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     428     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     428     q1*r2|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     164     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     164     q1*r2|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     416     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     416     q1*r2|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     396     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     396     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     428     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     428     q1*r2|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     428     A|Costel|3     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     428     Autentificare reusita.     Mesaj receptionat de la clientul     428     T|Costel     
+     Mesaj receptionat de la clientul     428     FormulareCompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     test_chestionar     428     Stare locuitori|Activitate 22.05.2024|test_chestionar     
+     Mesaj receptionat de la clientul     428     FormularCompletatDeMine|Costel|Stare locuitori     
+     428     Cat de fericiti sunteti astazi?*5|     
+     Mesaj receptionat de la clientul     428     FormularCompletatDeMine|Costel|test_chestionar     
+     428     q1*r2|     
+     Mesaj receptionat de la clientul     428     A|m1|m1     
+      Utilizatorul a fost gasit cu parola corecta.
+     428     Autentificare reusita.     Mesaj receptionat de la clientul     428     T|m1     
+     Mesaj receptionat de la clientul     428     FormulareCompletate|m1     
+     sondaj1     2     s2     chestionar2     teRog     c3     c4     3     5     s5     428     sondaj1|2|s2|chestionar2|teRog|c3|c4|3|5|s5     
+     Mesaj receptionat de la clientul     428     FormularCompletatDeMine|m1|s2     
+     428     intrebare*4|     
+     Mesaj receptionat de la clientul     428     FormularCompletatDeMine|m1|teRog     
+     428     trebuie*5|     
+     428     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     432     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     428     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     428     *|*r23|     
+     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     436     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     436     *|q2*r23|     
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     440     FormularCompletatDeMine|Costel|test_chestionar     
+     Successfully connected to SQL Server
+     440     q1*r2|q2*r23|     
+     Eroare la receptionarea mesajului de la client
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     496     A|Costel|3     
+      Utilizatorul a fost gasit cu parola corecta.
+     496     Autentificare reusita.     Mesaj receptionat de la clientul     496     T|Costel     
+     Mesaj receptionat de la clientul     496     FormulareNecompletate|Costel     
+     test     Rezultatele interogrii din baza de date:      test     496     test     
+     Mesaj receptionat de la clientul     496     FormulareCompletate|Costel     
+     Stare locuitori     Activitate 22.05.2024     test_chestionar     496     Stare locuitori|Activitate 22.05.2024|test_chestionar     
+     Mesaj receptionat de la clientul     496     FormularCompletatDeMine|Costel|test_chestionar     
+     496     q1*r2|q2*r23|     
+     Mesaj receptionat de la clientul     496     A|Primar|2     
+      Utilizatorul a fost gasit cu parola corecta.
+     496     Autentificare reusita.     Mesaj receptionat de la clientul     496     T|Primar     
+     Mesaj receptionat de la clientul     496     C|Primar|sondaj|test_sondaj|ana|are|mere|     
+     496     Formular creat cu succes.
+     496     Sondaj realizat cu succes.Asteapta raspunsurile organizatiei  pentru a evalua.
+     Mesaj receptionat de la clientul     496     C|Primar|chestionar|c| bv* zvb*z f*nhgb|     
+     496     Formular creat cu succes.
+     496     Chestionar realizat cu succes. Asteapta raspunsurile organizatiei pentru a le evalua.
+     Mesaj receptionat de la clientul     496     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     496     Stare locuitori|Activitate 22.05.2024     
+     Mesaj receptionat de la clientul     496     FormulareNecompletate|Primar     
+     test     test_chestionar     test_sondaj     c     Rezultatele interogrii din baza de date:      test     test_chestionar     test_sondaj     c     496     test|test_chestionar|test_sondaj|c     
+     Mesaj receptionat de la clientul     496     FormulareCreate|Primar     
+     496     Stare locuitori|Activitate 22.05.2024|test|test_chestionar|test_sondaj|c     
+     Mesaj receptionat de la clientul     496     FormulareNecompletate|Primar     
+     test     test_chestionar     test_sondaj     c     Rezultatele interogrii din baza de date:      test     test_chestionar     test_sondaj     c     496     test|test_chestionar|test_sondaj|c     
+     Mesaj receptionat de la clientul     496     Vizualizareformular|test_sondaj     
+     496     ana*1|ana*2|ana*3|ana*4|ana*5|are*1|are*2|are*3|are*4|are*5|mere*1|mere*2|mere*3|mere*4|mere*5|     Mesaj receptionat de la clientul     496     Completeaza|Primar|test_sondaj|ana*3|are*2|mere*1     
+     Mesaj receptionat de la clientul     496     Vizualizareformular|c     
+     496      bv* zvb| bv*z f| bv*nhgb|     Mesaj receptionat de la clientul     496     Completeaza|Primar|c| bv*nhgb     
+     Mesaj receptionat de la clientul     496     FormulareNecompletate|Primar     
+     test     test_chestionar     Rezultatele interogrii din baza de date:      test     test_chestionar     496     test|test_chestionar     
+     Mesaj receptionat de la clientul     496     FormularCompletatDeMine|Primar|test_sondaj     
+     496     ana*3|are*2|mere*1|     
+     Mesaj receptionat de la clientul     496     CerereArhivare|c     
+     496     Cererea de arhivare a fost inregistrata.
+     Mesaj receptionat de la clientul     496     CerereStergere|Primar|c     
+     496     Cererea de stergere a fost adaugata cu succes.
+     496     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     444     A|Iris|1     
+      Utilizatorul a fost gasit cu parola corecta.
+     444     Autentificare reusita.     Mesaj receptionat de la clientul     444     T|Iris     
+     Mesaj receptionat de la clientul     444     VizualizareCereriArhivare|Iris     
+     444     s5|sdfb|c|     Mesaj receptionat de la clientul     444     VizualizareCereriArhivare|Iris     
+     444     s5|sdfb|c|     Mesaj receptionat de la clientul     444     VizualizareStergere|     
+     444     sdfb|sdfb|sdfb|jhg|c|     Mesaj receptionat de la clientul     444     VizualizareStergere|     
+     444     sdfb|sdfb|sdfb|jhg|c|     Mesaj receptionat de la clientul     444     AprobaArhivare|c     
+     444     Formularul a fost arhivat cu succes.
+     Mesaj receptionat de la clientul     444     AprobaStergere|c     
+     444     Cererea de stergere a fost aprobata si formularul a fost sters.
+     Mesaj receptionat de la clientul     444     A|Primar|2     
+      Utilizatorul a fost gasit cu parola corecta.
+     444     Autentificare reusita.     Mesaj receptionat de la clientul     444     T|Primar     
+     Mesaj receptionat de la clientul     444     FormulareCreate|Primar     
+     444     Stare locuitori|Activitate 22.05.2024|test|test_chestionar|test_sondaj     
+     Mesaj receptionat de la clientul     444     Recupereaza|Primar|c     
+     444     Formularul a fost recuperat cu succes.
+     Mesaj receptionat de la clientul     444     FormulareCreate|Primar     
+     444     Stare locuitori|Activitate 22.05.2024|test|test_chestionar|test_sondaj|c     
+     444     Clientul s-a deconectat!
+     Client conectat de la      204.204.204.204     Mesaj receptionat de la clientul     432     A|Primar|2     
+     Successfully connected to SQL Server
+      Utilizatorul a fost gasit cu parola corecta.
+     432     Autentificare reusita.     Mesaj receptionat de la clientul     432     T|Primar     
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     test_sondaj     c     432     Stare locuitori|Activitate 22.05.2024|test_sondaj|c     
+     Mesaj receptionat de la clientul     432     FormulareCompletate|Primar     
+     Stare locuitori     Activitate 22.05.2024     test_sondaj     c     432     Stare locuitori|Activitate 22.05.2024|test_sondaj|c     
+     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Primar|test_sondaj     
+     432     ana*3|are*2|mere*1|     
+     Mesaj receptionat de la clientul     432     FormulareNecompletate|Primar     
+     test     test_chestionar     Rezultatele interogrii din baza de date:      test     test_chestionar     432     test|test_chestionar     
+     Mesaj receptionat de la clientul     432     FormularCompletatDeMine|Primar|test_chestionar     
+     432     Formular gresit
      

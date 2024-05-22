@@ -425,7 +425,6 @@ void printSQLError(SQLHANDLE handle, SQLSMALLINT type) {
     while ((ret = SQLGetDiagRec(type, handle, ++i, state, &native, text, sizeof(text), &len)) != SQL_NO_DATA) {
         wprintf(L"Message %d: %s, SQLSTATE: %s\n", i, text, state);
     }
-    
 }
 
 bool BazaDeDate::hasUserCompletedForm(int id_utilizator, int id_formular)
@@ -1100,8 +1099,7 @@ int BazaDeDate::getResponseID(int id_intrebare, const std::string& raspuns)
     int id_raspuns = -1;
 
     SQLWCHAR sql_query[255];
-    std::wstring w_raspuns = std::wstring(raspuns.begin(), raspuns.end());
-    swprintf(sql_query, 255, L"SELECT ID FROM Raspunsuri WHERE IDintrebare = %d AND Text = '%s'", id_intrebare, w_raspuns.c_str());
+    swprintf(sql_query, 255, L"SELECT ID FROM Raspunsuri WHERE IDintrebare = %d AND Text = '%s'", id_intrebare, raspuns.c_str());
 
     SQLHSTMT sqlStmtHandle;
     if (SQL_SUCCESS != SQLAllocHandle(SQL_HANDLE_STMT, sqlConnHandle, &sqlStmtHandle)) {
@@ -1110,7 +1108,7 @@ int BazaDeDate::getResponseID(int id_intrebare, const std::string& raspuns)
     }
 
     SQLRETURN retcode = SQLExecDirect(sqlStmtHandle, sql_query, SQL_NTS);
-    if (retcode != SQL_SUCCESS && retcode != SQL_SUCCESS_WITH_INFO) {
+    if (retcode != SQL_SUCCESS) {
         printf("Error executing SQL query\n");
         printSQLError(sqlStmtHandle, SQL_HANDLE_STMT);
         SQLCloseCursor(sqlStmtHandle);
@@ -1123,11 +1121,6 @@ int BazaDeDate::getResponseID(int id_intrebare, const std::string& raspuns)
         SQLGetData(sqlStmtHandle, 1, SQL_C_LONG, &id, sizeof(id), NULL);
         id_raspuns = id;
     }
-    else {
-        printf("No data found or error fetching data\n");
-        printSQLError(sqlStmtHandle, SQL_HANDLE_STMT);
-    }
-
     SQLCloseCursor(sqlStmtHandle);
     SQLFreeHandle(SQL_HANDLE_STMT, sqlStmtHandle);
     return id_raspuns;
@@ -1533,7 +1526,6 @@ std::vector<std::string> BazaDeDate::getFormTitlesByIDs(const std::vector<int>& 
 std::vector<std::pair<std::string, std::string>> BazaDeDate::getUserResponsesForForm(int id_utilizator, int id_formular)
 {
     std::vector<std::pair<std::string, std::string>> user_responses;
-    std::vector<SQLINTEGER> intrebare_ids;
 
     SQLHSTMT sqlStmtHandle;
     SQLRETURN retcode;
@@ -1541,17 +1533,16 @@ std::vector<std::pair<std::string, std::string>> BazaDeDate::getUserResponsesFor
     SQLWCHAR sql_query[255];
     swprintf(sql_query, 255, L"SELECT IDintrebare FROM Raspunsuri_User WHERE IDutilizator = %d AND IdFormular = %d", id_utilizator, id_formular);
 
-    retcode = SQLAllocHandle(SQL_HANDLE_STMT, sqlConnHandle, &sqlStmtHandle);
-    if (retcode != SQL_SUCCESS && retcode != SQL_SUCCESS_WITH_INFO) {
-        printf("Error allocating statement handle, SQLAllocHandle returned: %d\n", retcode);
-        printSQLError(sqlConnHandle, SQL_HANDLE_DBC);
+    if (SQL_SUCCESS != SQLAllocHandle(SQL_HANDLE_STMT, sqlConnHandle, &sqlStmtHandle)) {
+        printf("Error allocating statement handle\n");
         return user_responses;
     }
 
     retcode = SQLExecDirect(sqlStmtHandle, sql_query, SQL_NTS);
-    if (retcode != SQL_SUCCESS && retcode != SQL_SUCCESS_WITH_INFO) {
-        printf("Error executing SQL query, SQLExecDirect returned: %d\n", retcode);
+    if (retcode != SQL_SUCCESS) {
+        printf("Error executing SQL query\n");
         printSQLError(sqlStmtHandle, SQL_HANDLE_STMT);
+        SQLCloseCursor(sqlStmtHandle);
         SQLFreeHandle(SQL_HANDLE_STMT, sqlStmtHandle);
         return user_responses;
     }
@@ -1559,20 +1550,22 @@ std::vector<std::pair<std::string, std::string>> BazaDeDate::getUserResponsesFor
     SQLINTEGER id_intrebare;
     while (SQLFetch(sqlStmtHandle) == SQL_SUCCESS) {
         SQLGetData(sqlStmtHandle, 1, SQL_C_LONG, &id_intrebare, sizeof(id_intrebare), NULL);
-        intrebare_ids.push_back(id_intrebare);
-    }
 
-    SQLCloseCursor(sqlStmtHandle);
-    SQLFreeHandle(SQL_HANDLE_STMT, sqlStmtHandle);
+        std::string intrebare_text = getIntrebareText(id_intrebare);
 
-    for (const auto& qid : intrebare_ids) {
-        std::string intrebare_text = getIntrebareText(qid);
-        int id_raspuns = getResponseID(qid, id_utilizator, id_formular);
+
+        int id_raspuns = getResponseID( id_intrebare, id_utilizator,  id_formular);
         std::string raspuns_text = getRaspunsText(id_raspuns);
 
         user_responses.push_back({ intrebare_text, raspuns_text });
     }
 
+    if (SQL_SUCCESS != SQLCloseCursor(sqlStmtHandle)) {
+        printf("Error closing cursor\n");
+        printSQLError(sqlStmtHandle, SQL_HANDLE_STMT);
+    }
+    SQLCloseCursor(sqlStmtHandle);
+    SQLFreeHandle(SQL_HANDLE_STMT, sqlStmtHandle);
     return user_responses;
 }
 
@@ -2235,47 +2228,28 @@ std::string BazaDeDate::getIntrebareText(SQLINTEGER id_intrebare)
     swprintf(sql_query, 255, L"SELECT Text FROM Intrebari WHERE ID = %d", id_intrebare);
 
     SQLHSTMT sqlStmtHandle;
-    SQLRETURN retcode;
-
-    retcode = SQLAllocHandle(SQL_HANDLE_STMT, sqlConnHandle, &sqlStmtHandle);
-    if (retcode != SQL_SUCCESS && retcode != SQL_SUCCESS_WITH_INFO) {
-        printf("Error allocating statement handle, SQLAllocHandle returned: %d\n", retcode);
-        printSQLError(sqlConnHandle, SQL_HANDLE_DBC);
+    if (SQL_SUCCESS != SQLAllocHandle(SQL_HANDLE_STMT, sqlConnHandle, &sqlStmtHandle)) {
+        printf("Error allocating statement handle\n");
         return intrebare_text;
     }
 
-    printf("Executing query: %ls\n", sql_query);
-    retcode = SQLExecDirect(sqlStmtHandle, sql_query, SQL_NTS);
-    if (retcode != SQL_SUCCESS && retcode != SQL_SUCCESS_WITH_INFO) {
-        printf("Error executing SQL query, SQLExecDirect returned: %d\n", retcode);
+    SQLRETURN retcode = SQLExecDirect(sqlStmtHandle, sql_query, SQL_NTS);
+    if (retcode != SQL_SUCCESS) {
+        printf("Error executing SQL query\n");
         printSQLError(sqlStmtHandle, SQL_HANDLE_STMT);
+        SQLCloseCursor(sqlStmtHandle);
         SQLFreeHandle(SQL_HANDLE_STMT, sqlStmtHandle);
         return intrebare_text;
     }
 
-    retcode = SQLFetch(sqlStmtHandle);
-    if (retcode == SQL_SUCCESS || retcode == SQL_SUCCESS_WITH_INFO) {
-        SQLCHAR intrebare[255];
-        retcode = SQLGetData(sqlStmtHandle, 1, SQL_C_CHAR, intrebare, sizeof(intrebare), NULL);
-        if (retcode == SQL_SUCCESS || retcode == SQL_SUCCESS_WITH_INFO) {
-            intrebare_text = std::string((char*)intrebare);
-        }
-        else {
-            printf("Error retrieving data, SQLGetData returned: %d\n", retcode);
-            printSQLError(sqlStmtHandle, SQL_HANDLE_STMT);
-        }
-    }
-    else if (retcode == SQL_NO_DATA) {
-        printf("No data found, SQLFetch returned: %d\n", retcode);
-    }
-    else {
-        printf("Error fetching data, SQLFetch returned: %d\n", retcode);
-        printSQLError(sqlStmtHandle, SQL_HANDLE_STMT);
+    SQLCHAR intrebare[255];
+    if (SQLFetch(sqlStmtHandle) == SQL_SUCCESS) {
+        SQLGetData(sqlStmtHandle, 1, SQL_C_CHAR, intrebare, sizeof(intrebare), NULL);
+        intrebare_text = std::string((char*)intrebare);
     }
 
     SQLCloseCursor(sqlStmtHandle);
     SQLFreeHandle(SQL_HANDLE_STMT, sqlStmtHandle);
-
     return intrebare_text;
 }
 
